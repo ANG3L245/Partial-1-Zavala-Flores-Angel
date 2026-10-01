@@ -4,122 +4,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZAVALA FLORES ANGEL</title>
+    <title>PARTIAL 1 INDEX</title>
     <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #0f172a, #1e293b);
-            color: #f8fafc;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            overflow: hidden;
-        }
-
-        .card {
-            background: rgba(30, 41, 59, 0.7);
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            padding: 40px;
-            border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            font-family: "Times New Roman", Times, serif;
             text-align: center;
-            max-width: 600px;
-            width: 90%;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 30px 20px;
         }
 
         h1 {
-            font-size: 1.8rem;
-            margin-bottom: 15px;
-            background: linear-gradient(90deg, #38bdf8, #818cf8);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
         }
 
         h2 {
-            font-size: 1.2rem;
-            color: #94a3b8;
-            margin-bottom: 25px;
-            font-weight: 400;
+            font-size: 15px;
+            font-weight: bold;
+            margin: 6px 0 14px 0;
         }
 
-        .actions {
+        .logo {
+            width: 90px;
+            height: auto;
+            margin: 0 auto 10px auto;
+            display: block;
+        }
+
+        .link-play {
+            margin: 6px 0 14px 0;
+        }
+
+        .link-play a {
+            color: purple;
+            text-decoration: underline;
+            font-size: 11px;
+            font-weight: normal;
+        }
+
+        .section-title {
+            font-weight: bold;
+            font-size: 11px;
+            margin: 14px 0 8px 0;
+        }
+
+        .menu-box {
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            align-items: center;
+            gap: 6px;
         }
 
-        .btn {
+        /* Botones pequeños, estilo gris simple como en el PDF */
+        .btn-link {
             display: inline-block;
+            padding: 2px 8px;
+            border: 1px solid #767676;
+            background-color: #efefef;
+            color: #000;
             text-decoration: none;
-            color: white;
-            padding: 12px 28px;
-            border-radius: 8px;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            font-weight: normal;
+            text-transform: uppercase;
+            border-radius: 2px;
         }
 
-        /* Botón 1: Idea Millonaria (Azul) */
-        .btn-idea {
-            background: linear-gradient(135deg, #3b82f6, #1d4ed8);
-            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
+        .btn-link:hover {
+            background-color: #e0e0e0;
         }
 
-        .btn-idea:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(59, 130, 246, 0.6);
-            background: linear-gradient(135deg, #2563eb, #1e40af);
+        .student-label {
+            font-weight: bold;
+            font-size: 11px;
+            margin-top: 14px;
+            margin-bottom: 6px;
         }
 
-        /* Botón 2: Money (Verde) */
-        .btn-money {
-            background: linear-gradient(135deg, #10b981, #059669);
-            box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+        .student-name {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 6px 0;
         }
 
-        .btn-money:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(16, 185, 129, 0.6);
-            background: linear-gradient(135deg, #059669, #047857);
+        .student-correoper,
+        .student-correoins {
+            font-size: 11px;
+            font-weight: bold;
+            margin-bottom: 4px;
         }
 
-        /* Botón 3: Customers (Morado) */
-        .btn-customers {
-            background: linear-gradient(135deg, #8b5cf6, #6d28d9);
-            box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+        .student-correoins {
+            margin-bottom: 24px;
         }
 
-        .btn-customers:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(139, 92, 246, 0.6);
-            background: linear-gradient(135deg, #7c3aed, #5b21b6);
+        /* Imagen profesional de 400x400 píxeles, recortada en círculo */
+        .student-img {
+            width: 400px;
+            height: 400px;
+            max-width: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
         }
     </style>
 </head>
 
 <body>
 
-    <div class="card">
-        <h1>THIS MY FIRST TEST OF FRONT END IN THE CLOUD</h1>
-        <h2>ZAVALA FLORES ANGEL</h2>
+    <h1>PARTIAL 1 INDEX</h1>
+    <h2>QUALITY TOPICS FOR SOFTWARE DESIGN</h2>
 
-        <div class="actions">
-            <a href="../Practices Topics/diagramadeflujo_renta_videojuegos.html" class="btn btn-idea">💡 Idea
-                Millonaria</a>
-            <a href="../Practices Topics/diagramadeflujo_money.html" class="btn btn-money">💰 Money</a>
-            <a href="../Practices Topics/diagramadeflujo_customers.html" class="btn btn-customers">👥 Customers</a>
-        </div>
+    <!-- Logo institucional -->
+    <img src="../logo utd.png" alt="Logo UT" class="logo">
+
+    <div class="link-play">
+        <a href="../Practices Topics/mario/index.html">PLAY MARIO</a>
     </div>
+
+    <!-- FLOWCHART SECTION -->
+    <div class="section-title">FLOWCHART SECTION</div>
+    <div class="menu-box">
+        <a href="../Practices Topics/diagramadeflujo_renta_videojuegos.html" class="btn-link">DIAGRAM 1 - MAIN
+            PROCESS</a>
+        <a href="../Practices Topics/diagramadeflujo_customers.html" class="btn-link">DIAGRAM 2 - CLIENTS</a>
+        <a href="../Practices Topics/diagramadeflujo_money.html" class="btn-link">DIAGRAM 3 - MONEY</a>
+    </div>
+
+    <!-- USE CASE DIAGRAM SECTION -->
+    <div class="section-title">USE CASE DIAGRAM SECTION</div>
+    <div class="menu-box">
+        <a href="../Practices Topics/case_umi.html" class="btn-link">DIAGRAM 1 - PROGRAMMER ACTOR</a>
+        <a href="../Practices Topics/case2_umi.html" class="btn-link">DIAGRAM 2 - USER ACTOR</a>
+        <a href="../Practices Topics/case3_umi.html" class="btn-link">DIAGRAM 3 - BANKER ACTOR</a>
+    </div>
+
+    <!-- STUDENT SECTION -->
+    <div class="student-label">STUDENT:</div>
+    <div class="student-name">ZAVALA FLORES ANGEL</div>
+    <div class="student-correoper">EMAIL: angelzafa245@gmail.com</div>
+    <div class="student-correoins">INSTITUTIONAL EMAIL: angel_3142250066@utd.edu.mx</div>
+
+    <!-- FOTO DEL ESTUDIANTE (400x400) -->
+    <img src="../20260813_074418(1).jpg" alt="ZAVALA FLORES ANGEL" width="400" height="400" class="student-img">
 
 </body>
 
